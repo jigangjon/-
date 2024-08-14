@@ -1,0 +1,193 @@
+body {
+  background-color: rgb(48, 46, 43);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+input {
+  margin: 0;
+}
+
+.homepage-logo {
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.page,
+.login-wrapper,
+.login-form,
+.login-options,
+.login-with {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-wrapper {
+  background-color: rgb(38, 36, 33);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color-scheme: dark;
+  padding: 14px;
+  width: 370px;
+}
+
+.login-form {
+  width: 100%;
+  border-bottom: 2px solid rgb(49, 46, 43);
+}
+
+.login-input {
+  box-sizing: border-box;
+  font-size: 14px;
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 14px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.login-input:hover,
+.login-input:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.password-options-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox-wrapper {
+  display: flex;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+label {
+  margin-left: 2px;
+}
+
+.password-options {
+  color: rgb(195, 194, 193);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.forgot-password:hover {
+  color: rgb(223, 222, 222);
+}
+
+.login-button {
+  background-color: rgb(129, 182, 76);
+  width: 100%;
+  height: 55px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: background-color 0.1s, box-shadow 0.1s;
+}
+
+.login-button:hover {
+  background-color: rgb(146, 195, 86);
+  box-shadow: rgba(93, 153, 72, 0.2) 0 0 8px 0;
+}
+
+.login-button:active {
+  background-color: rgb(138, 189, 81);
+  box-shadow: rgba(93, 153, 72, 0.05) 0px 0px 8px 0px;
+}
+
+.login-with {
+  margin-top: 40px;
+}
+
+.login-options,
+.login-with {
+  width: 100%;
+}
+
+.login-apple,
+.login-google,
+.login-facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.login-facebook {
+  margin-bottom: 20px;
+}
+
+.login-apple:hover {
+  background-color: rgb(21, 21, 21);
+}
+
+.login-google:hover,
+.login-facebook:hover {
+  opacity: 0.9;
+}
+
+.login-apple {
+  background-color: black;
+  color: white;
+}
+
+.login-google {
+  background-color: white;
+  color: black;
+}
+
+.login-facebook {
+  background-color: rgb(23, 120, 242);
+  color: white;
+}
+
+.sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 398px;
+  height: 60px;
+  background-color: rgb(33, 31, 28);
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.sign-up:hover {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.question {
+  color: rgba(255, 255, 255, 0.72);
+}
